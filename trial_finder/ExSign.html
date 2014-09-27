@@ -1,0 +1,112 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+     <link rel="stylesheet" href="css/app.css">
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="js/app.js"></script>
+
+  </head>
+
+  <body>
+    <div class="sticky">
+    <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="index.html">Home</a></h1>
+        </li>
+      </ul>
+      <section class="top-bar-section">
+        <ul class="right">
+          <li><a href=https://www.michaeljfox.org/get-involved/donation2.php>Donate Now</a></li>
+        </ul>
+      </section>
+    </nav>
+    </div>
+    
+    <div id="form_holder" class="form_holder">
+            <form method="get" action='index.php'>
+              <div id="inner_form">
+<div class="row">
+    <div class="large-6 columns">
+
+                <fieldset>
+                  <legend>Please Answer</legend>
+
+                <label>Name
+                  <input name="Name" type="text" placeholder="Inputs and other form elements go inside...">
+                </label>
+                  <label>Email
+                    <input name="Email" type="text" placeholder="Inputs and other form elements go inside...">
+                  </label>
+                <label>Password
+                  <input name="Password" type="text" placeholder="Inputs and other form elements go inside...">
+                </label>
+               <label>Permission To Email
+                  <select name="Permission">
+                    <option  value="yes">Yes</option>
+                    <option value="no">No</option>
+                  </select>    
+                </label>
+                </fieldset>
+    </div>
+        <div class="large-6 columns">
+              <fieldset>
+              <legend>Please Answer</legend>
+              <label>Location
+                <input type="text" placeholder="Inputs and other form elements go inside...">
+              </label>
+              <label>How Far Are You Willing To Go
+                <select name="HowFar">
+                    <option  value="20">20</option>
+                    <option  value="50">50</option>
+                    <option  value="100">100</option>
+                    <option  value="300">300</option>
+                </select>    
+               </label>
+              <label>Type of Patient
+                <select name="TYP">
+                    <option  value="20">I Have Parkinsons</option>
+                    <option  value="50">I can be A Healthy Control</option>
+                    <option  value="100">I Am A Test Trial Member</option>
+                </select>       
+               </label>
+              <label>Gender
+                <select name="Gender">
+                    <option  value="Male">Male</option>
+                    <option  value="50">Female</option>
+                </select>    
+               </label>
+            </fieldset>
+       </div>
+</div>
+<div class="row">
+
+      <div class="small-12 large-centered columns">
+          <ul class="button-group text-right">
+            <input class="button button_orange" onclick="loadPage2()" value="Next">
+          </ul>
+      </div>
+  </div>
+</div>
+<div id="second_form">
+
+</div>
+        </form>
+
+
+  </div>
+  
+
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+  
+</html>
